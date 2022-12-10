@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    font: normal 1em Arial, Helvetica, sans-serif;
+    color: black;
+}
+h1 {
+    font: normal 3em 'Great Vibes', cursive;
+}
+h2 {
+    font: normal 2em 'Great Vibes', cursive;
+
+}

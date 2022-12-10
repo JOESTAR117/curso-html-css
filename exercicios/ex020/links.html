@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: rgb(240, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited {
+        color: rgb(145, 1, 1);
+    }
+    a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    a:active {
+        color: yellow;
+    }
+    .especial::before {
+        content: '⇒';
+        background-color: black;
+    
+    }
+    .especial::after {
+        content: '⇐';
+        background-color: black;
+    }
+    .especial {
+        background-color: black;
+    }
+    div > p {
+        display: none;
+        overflow: hidden;
+    }
+    div:hover > p {
+            display: block;
+    }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/JOESTAR117" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://www.facebook.com/junior.rios.739326" target="_blank">Facebook</a></li>
+        <li><a class="especial" href="https://www.youtube.com/watch?v=Jum_MN8M_wc" target="_blank">Edit favorita</a></li>
+        <div>
+            Passe o mouse aqui
+            <p><a href="https://www.youtube.com/watch?v=J1fOZnaqZTw&t=673s">Link especial</a></p>
+        </div>
+    </ul>
+    
+</body>
+</html>

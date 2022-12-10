@@ -1,0 +1,13 @@
+body {
+    font: normal 1em Arial,Helvetica,serif;
+    text-align: justify;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+}
+p {
+    text-indent: 2em;
+}
